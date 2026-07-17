@@ -78,3 +78,15 @@ solution using AWS services and Terraform.
 At the end of this project, the EC2 instances will automatically stop
 every Friday evening and start again every Monday morning, helping
 reduce unnecessary AWS costs while requiring zero manual effort.
+
+**Commands:**
+
+terraform init -backend-config=backend.config
+
+terraform plan -var-file=dev.tfvars
+
+terraform apply -var-file=dev.tfvars -auto-approve
+
+terraform destroy -var-file=dev.tfvars -auto-approve
+
+
