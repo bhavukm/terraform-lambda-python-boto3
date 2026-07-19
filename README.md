@@ -23,18 +23,12 @@ that:
 # Proposed Solution
 
 To solve this problem, we will build a fully automated serverless
-solution using AWS services and Terraform.
+Solution using AWS services and Terraform.
 
 ## Architecture
 
-    EventBridge Schedule
-            │
-            ▼
-    AWS Lambda (Python + Boto3)
-            │
-            ▼
-     Amazon EC2
-    (Start / Stop Instances)
+  <img width="900" height="900" alt="image" src="https://github.com/user-attachments/assets/7ebbd71b-1b75-4016-a3fb-33f20f87a270" />
+
 
 ## Technologies Used
 
